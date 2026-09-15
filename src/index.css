@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-base: var(--brand-base);
+  --color-neon-cyan: var(--neon-cyan);
+  --color-neon-magenta: var(--neon-magenta);
+}
+
+:root {
+  --brand-base: #0F172A;
+  --neon-cyan: #00F3FF;
+  --neon-magenta: #FF003C;
+}
+
+body {
+  background-color: var(--brand-base);
+  color: #F8FAFC;
+}
+
+/* Custom Scroll Line */
+.glow-line {
+  box-shadow: 0 0 15px var(--neon-cyan), 0 0 30px var(--neon-cyan);
+}
+

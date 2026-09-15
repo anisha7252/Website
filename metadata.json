@@ -1,0 +1,6 @@
+{
+  "name": "S & A Digital Hub",
+  "description": "Complete digital services, online form fill-up, PVC cards, and vehicle insurance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
